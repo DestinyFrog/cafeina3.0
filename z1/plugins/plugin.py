@@ -53,7 +53,6 @@ class Plugin(Handler):
 
 	def handle_atoms(self):
 		atoms = handle_atoms_position(self, 0, None, None, [])
-		print(atoms)
 		atoms.sort(key = lambda x: x[3])
 		return atoms
 
