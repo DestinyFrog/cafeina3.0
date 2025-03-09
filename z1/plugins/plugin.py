@@ -1,10 +1,10 @@
 import math
-
+9
 from z1.handler.handler import Handler
 from z1.params.ligationType import LigationType
 from z1.helpers.svg import Svg
 
-def handle_atoms_position(self, idx = 0, dad_atom = None, ligation = None, already = []):
+def handle_atoms_position(self, idx, dad_atom, ligation, already):  
 	if idx in already:
 		return []
 
@@ -24,7 +24,7 @@ def handle_atoms_position(self, idx = 0, dad_atom = None, ligation = None, alrea
 	my_ligations = filter(lambda l: l[3][0] == idx, self.ligations)
 	for my_ligation in my_ligations:
 		pos = handle_atoms_position(self, my_ligation[3][1], atom, my_ligation, already)
-		list = list + pos
+		list.extend(pos)
 
 	return list
 
@@ -52,7 +52,8 @@ class Plugin(Handler):
 		self.center_y = center_y
 
 	def handle_atoms(self):
-		atoms = handle_atoms_position(self)
+		atoms = handle_atoms_position(self, 0, None, None, [])
+		print(atoms)
 		atoms.sort(key = lambda x: x[3])
 		return atoms
 
@@ -96,7 +97,8 @@ class Plugin(Handler):
 			if type == LigationType.IONICA:
 				continue
 
-			a, b = group
+			#! for some reason *_ solves the bug '-'
+			a, b, *_ = group
 
 			if self.atoms[b][0] == 'X':
 				continue
