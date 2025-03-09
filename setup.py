@@ -1,4 +1,6 @@
+import uuid
 import json
+import os
 
 from models.elementModel import ElementModel
 from models.moleculaModel import MoleculaModel
@@ -14,26 +16,22 @@ with open("data/elements.json") as file:
 	elements = json.loads(text)
 	ElementModel.insert_many(elements).execute()
 
+zones = os.listdir("data/zones")
 
-MoleculaModel.insert(
-    uid="5ef70e4b-7ea8-4b05-8ea5-3cd43c2d9315",
-	iupac_name= "água",
-	popular_name= "água",
-	another_names= "",
-	organic= False,
-	term= "HHO",
-	formula= "H<2>O",
-	z1= """inorganic\n\nO 1 2 3 4\nH 1\nH 2\nX 3\nX 4\n\nangV"""
-).execute()
+for zone in zones:
+	name, *_ = zone.split(".")
+	name = name.replace("_", " ")
 
-MoleculaModel.insert(
-    uid="34beeae0-3b76-4193-9169-d3c8b08233f2",
-	iupac_name= "amônia",
-	popular_name= "amônia",
-	another_names= "",
-	organic= False,
-	term= "HHHN",
-	formula= "NH<3>",
-	z1= """inorganic\n\nN 1 2 3 4\nH 1\nH 2\nH 3\nX 4\n\npirA"""
-).execute()
+	with open("data/zones/"+zone) as file:
+		text = file.read()
 
+		MoleculaModel.insert(
+			uid=uuid.uuid4(),
+			iupac_name= "",
+			popular_name= name,
+			another_names= "",
+			organic= False,
+			term= "",
+			formula= "",
+			z1=text
+		).execute()
