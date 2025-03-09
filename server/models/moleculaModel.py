@@ -1,4 +1,4 @@
-from peewee import CharField, BooleanField, UUIDField
+from peewee import CharField, BooleanField, UUIDField, TextField
 
 from models.baseModel import BaseModel
 from z1.plugins.defaultPlugin import DefaultPlugin
@@ -13,7 +13,7 @@ class MoleculaModel(BaseModel):
 	organic = BooleanField()
 	term = CharField()
 	formula = CharField()
-	z1 = CharField()
+	z1 = TextField()
  
 	def _to_dict(self, q):
 		return {

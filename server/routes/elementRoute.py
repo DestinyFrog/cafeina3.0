@@ -1,8 +1,9 @@
 from flask import Blueprint, jsonify
 
 from models.elementModel import ElementModel
+from config import API_PREFIX
 
-route = Blueprint('element', __name__, url_prefix='/element')
+route = Blueprint('element', __name__, url_prefix=f'{API_PREFIX}/element')
 
 @route.route("/", methods=["GET"])
 def get_all_element():

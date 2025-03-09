@@ -1,8 +1,9 @@
 from flask import Blueprint, jsonify, make_response, request
 
 from models.moleculaModel import MoleculaModel
+from config import API_PREFIX
 
-route = Blueprint('molecula', __name__, url_prefix='/molecula')
+route = Blueprint('molecula', __name__, url_prefix=f'{API_PREFIX}/molecula')
 
 @route.route("/", methods=["GET"])
 def get_all_molecula():
