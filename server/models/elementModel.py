@@ -37,7 +37,7 @@ class ElementModel(BaseModel):
 			"eletronegativity": q.eletronegativity,
 			"period": q.period,
 			"family": q.family,
-			"symbol": q.family,
+			"symbol": q.symbol,
 			"fase": q.fase,
 			"layers": q.layers,
 			"electronic_configuration": q.electronic_configuration,

@@ -11,7 +11,7 @@
 		"eletronegativity": 2.1,
 		"period": 1,
 		"family": 1,
-		"symbol": 1,
+		"symbol": "H",
 		"fase": "G",
 		"layers": [
 			1
@@ -38,7 +38,7 @@
 		"eletronegativity": null,
 		"period": 1,
 		"family": 18,
-		"symbol": 18,
+		"symbol": "He",
 		"fase": "G",
 		"layers": [
 			2
@@ -64,7 +64,7 @@
 		"eletronegativity": 0.98,
 		"period": 2,
 		"family": 1,
-		"symbol": 1,
+		"symbol": "Li",
 		"fase": "S",
 		"layers": [
 			2,
@@ -92,7 +92,7 @@
 		"eletronegativity": 1.57,
 		"period": 2,
 		"family": 2,
-		"symbol": 2,
+		"symbol": "Be",
 		"fase": "S",
 		"layers": [
 			2,
@@ -120,7 +120,7 @@
 		"eletronegativity": 2.04,
 		"period": 2,
 		"family": 13,
-		"symbol": 13,
+		"symbol": "B",
 		"fase": "S",
 		"layers": [
 			2,
@@ -148,7 +148,7 @@
 		"eletronegativity": 2.55,
 		"period": 2,
 		"family": 14,
-		"symbol": 14,
+		"symbol": "C",
 		"fase": "S",
 		"layers": [
 			2,
@@ -176,7 +176,7 @@
 		"eletronegativity": 3.04,
 		"period": 2,
 		"family": 15,
-		"symbol": 15,
+		"symbol": "N",
 		"fase": "G",
 		"layers": [
 			2,
@@ -206,7 +206,7 @@
 		"eletronegativity": 3.44,
 		"period": 2,
 		"family": 16,
-		"symbol": 16,
+		"symbol": "O",
 		"fase": "G",
 		"layers": [
 			2,
@@ -236,7 +236,7 @@
 		"eletronegativity": 3.98,
 		"period": 2,
 		"family": 17,
-		"symbol": 17,
+		"symbol": "F",
 		"fase": "G",
 		"layers": [
 			2,
@@ -264,7 +264,7 @@
 		"eletronegativity": null,
 		"period": 2,
 		"family": 18,
-		"symbol": 18,
+		"symbol": "Ne",
 		"fase": "G",
 		"layers": [
 			2,
@@ -291,7 +291,7 @@
 		"eletronegativity": 0.93,
 		"period": 3,
 		"family": 1,
-		"symbol": 1,
+		"symbol": "Na",
 		"fase": "S",
 		"layers": [
 			2,
@@ -320,7 +320,7 @@
 		"eletronegativity": 1.31,
 		"period": 3,
 		"family": 2,
-		"symbol": 2,
+		"symbol": "Mg",
 		"fase": "S",
 		"layers": [
 			2,
@@ -350,7 +350,7 @@
 		"eletronegativity": 1.61,
 		"period": 3,
 		"family": 13,
-		"symbol": 13,
+		"symbol": "Al",
 		"fase": "S",
 		"layers": [
 			2,
@@ -379,7 +379,7 @@
 		"eletronegativity": 1.9,
 		"period": 3,
 		"family": 14,
-		"symbol": 14,
+		"symbol": "Si",
 		"fase": "S",
 		"layers": [
 			2,
@@ -409,7 +409,7 @@
 		"eletronegativity": 2.19,
 		"period": 3,
 		"family": 15,
-		"symbol": 15,
+		"symbol": "P",
 		"fase": "S",
 		"layers": [
 			2,
@@ -436,7 +436,7 @@
 		"eletronegativity": 2.58,
 		"period": 3,
 		"family": 16,
-		"symbol": 16,
+		"symbol": "S",
 		"fase": "S",
 		"layers": [
 			2,
@@ -465,7 +465,7 @@
 		"eletronegativity": 3.16,
 		"period": 3,
 		"family": 17,
-		"symbol": 17,
+		"symbol": "Cl",
 		"fase": "G",
 		"layers": [
 			2,
@@ -494,7 +494,7 @@
 		"eletronegativity": null,
 		"period": 3,
 		"family": 18,
-		"symbol": 18,
+		"symbol": "Ar",
 		"fase": "G",
 		"layers": [
 			2,
@@ -522,7 +522,7 @@
 		"eletronegativity": 0.82,
 		"period": 4,
 		"family": 1,
-		"symbol": 1,
+		"symbol": "K",
 		"fase": "S",
 		"layers": [
 			2,
@@ -552,7 +552,7 @@
 		"eletronegativity": 1,
 		"period": 4,
 		"family": 2,
-		"symbol": 2,
+		"symbol": "Ca",
 		"fase": "S",
 		"layers": [
 			2,
@@ -582,7 +582,7 @@
 		"eletronegativity": 1.36,
 		"period": 4,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Sc",
 		"fase": "S",
 		"layers": [
 			2,
@@ -613,7 +613,7 @@
 		"eletronegativity": 1.54,
 		"period": 4,
 		"family": 4,
-		"symbol": 4,
+		"symbol": "Ti",
 		"fase": "S",
 		"layers": [
 			2,
@@ -645,7 +645,7 @@
 		"eletronegativity": 1.63,
 		"period": 4,
 		"family": 5,
-		"symbol": 5,
+		"symbol": "V",
 		"fase": "S",
 		"layers": [
 			2,
@@ -678,7 +678,7 @@
 		"eletronegativity": 1.66,
 		"period": 4,
 		"family": 6,
-		"symbol": 6,
+		"symbol": "Cr",
 		"fase": "S",
 		"layers": [
 			2,
@@ -708,7 +708,7 @@
 		"eletronegativity": 1.55,
 		"period": 4,
 		"family": 7,
-		"symbol": 7,
+		"symbol": "Mn",
 		"fase": "S",
 		"layers": [
 			2,
@@ -744,7 +744,7 @@
 		"eletronegativity": 1.83,
 		"period": 4,
 		"family": 8,
-		"symbol": 8,
+		"symbol": "Fe",
 		"fase": "S",
 		"layers": [
 			2,
@@ -773,7 +773,7 @@
 		"eletronegativity": 1.88,
 		"period": 4,
 		"family": 9,
-		"symbol": 9,
+		"symbol": "Co",
 		"fase": "S",
 		"layers": [
 			2,
@@ -804,7 +804,7 @@
 		"eletronegativity": 1.91,
 		"period": 4,
 		"family": 10,
-		"symbol": 10,
+		"symbol": "Ni",
 		"fase": "S",
 		"layers": [
 			2,
@@ -838,7 +838,7 @@
 		"eletronegativity": 1.9,
 		"period": 4,
 		"family": 11,
-		"symbol": 11,
+		"symbol": "Cu",
 		"fase": "S",
 		"layers": [
 			2,
@@ -867,7 +867,7 @@
 		"eletronegativity": 1.65,
 		"period": 4,
 		"family": 12,
-		"symbol": 12,
+		"symbol": "Zn",
 		"fase": "S",
 		"layers": [
 			2,
@@ -897,7 +897,7 @@
 		"eletronegativity": 1.81,
 		"period": 4,
 		"family": 13,
-		"symbol": 13,
+		"symbol": "Ga",
 		"fase": "S",
 		"layers": [
 			2,
@@ -927,7 +927,7 @@
 		"eletronegativity": 2.01,
 		"period": 4,
 		"family": 14,
-		"symbol": 14,
+		"symbol": "Ge",
 		"fase": "S",
 		"layers": [
 			2,
@@ -957,7 +957,7 @@
 		"eletronegativity": 2.18,
 		"period": 4,
 		"family": 15,
-		"symbol": 15,
+		"symbol": "As",
 		"fase": "S",
 		"layers": [
 			2,
@@ -990,7 +990,7 @@
 		"eletronegativity": 2.55,
 		"period": 4,
 		"family": 16,
-		"symbol": 16,
+		"symbol": "Se",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1021,7 +1021,7 @@
 		"eletronegativity": 2.96,
 		"period": 4,
 		"family": 17,
-		"symbol": 17,
+		"symbol": "Br",
 		"fase": "L",
 		"layers": [
 			2,
@@ -1052,7 +1052,7 @@
 		"eletronegativity": null,
 		"period": 4,
 		"family": 18,
-		"symbol": 18,
+		"symbol": "Kr",
 		"fase": "G",
 		"layers": [
 			2,
@@ -1081,7 +1081,7 @@
 		"eletronegativity": 0.82,
 		"period": 5,
 		"family": 1,
-		"symbol": 1,
+		"symbol": "Rb",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1113,7 +1113,7 @@
 		"eletronegativity": 0.95,
 		"period": 5,
 		"family": 2,
-		"symbol": 2,
+		"symbol": "Sr",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1146,7 +1146,7 @@
 		"eletronegativity": 1.22,
 		"period": 5,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Y",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1177,7 +1177,7 @@
 		"eletronegativity": 1.33,
 		"period": 5,
 		"family": 4,
-		"symbol": 4,
+		"symbol": "Zr",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1208,7 +1208,7 @@
 		"eletronegativity": 1.6,
 		"period": 5,
 		"family": 5,
-		"symbol": 5,
+		"symbol": "Nb",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1239,7 +1239,7 @@
 		"eletronegativity": 2.16,
 		"period": 5,
 		"family": 6,
-		"symbol": 6,
+		"symbol": "Mo",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1270,7 +1270,7 @@
 		"eletronegativity": 1.9,
 		"period": 5,
 		"family": 7,
-		"symbol": 7,
+		"symbol": "Tc",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1300,7 +1300,7 @@
 		"eletronegativity": 2.2,
 		"period": 5,
 		"family": 8,
-		"symbol": 8,
+		"symbol": "Ru",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1329,7 +1329,7 @@
 		"eletronegativity": 2.28,
 		"period": 5,
 		"family": 9,
-		"symbol": 9,
+		"symbol": "Rh",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1358,7 +1358,7 @@
 		"eletronegativity": 2.2,
 		"period": 5,
 		"family": 10,
-		"symbol": 10,
+		"symbol": "Pd",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1389,7 +1389,7 @@
 		"eletronegativity": 1.93,
 		"period": 5,
 		"family": 11,
-		"symbol": 11,
+		"symbol": "Ag",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1418,7 +1418,7 @@
 		"eletronegativity": 1.69,
 		"period": 5,
 		"family": 12,
-		"symbol": 12,
+		"symbol": "Cd",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1450,7 +1450,7 @@
 		"eletronegativity": 1.78,
 		"period": 5,
 		"family": 13,
-		"symbol": 13,
+		"symbol": "In",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1479,7 +1479,7 @@
 		"eletronegativity": 1.96,
 		"period": 5,
 		"family": 14,
-		"symbol": 14,
+		"symbol": "Sn",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1508,7 +1508,7 @@
 		"eletronegativity": 2.05,
 		"period": 5,
 		"family": 15,
-		"symbol": 15,
+		"symbol": "Sb",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1535,7 +1535,7 @@
 		"eletronegativity": 2.1,
 		"period": 5,
 		"family": 16,
-		"symbol": 16,
+		"symbol": "Te",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1567,7 +1567,7 @@
 		"eletronegativity": 2.66,
 		"period": 5,
 		"family": 17,
-		"symbol": 17,
+		"symbol": "I",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1598,7 +1598,7 @@
 		"eletronegativity": 2.6,
 		"period": 5,
 		"family": 18,
-		"symbol": 18,
+		"symbol": "Xe",
 		"fase": "G",
 		"layers": [
 			2,
@@ -1628,7 +1628,7 @@
 		"eletronegativity": 0.79,
 		"period": 6,
 		"family": 1,
-		"symbol": 1,
+		"symbol": "Cs",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1661,7 +1661,7 @@
 		"eletronegativity": 0.89,
 		"period": 6,
 		"family": 2,
-		"symbol": 2,
+		"symbol": "Ba",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1694,7 +1694,7 @@
 		"eletronegativity": 1.1,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "La",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1726,7 +1726,7 @@
 		"eletronegativity": 1.12,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Ce",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1760,7 +1760,7 @@
 		"eletronegativity": 1.13,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Pr",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1790,7 +1790,7 @@
 		"eletronegativity": 1.14,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Nd",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1822,7 +1822,7 @@
 		"eletronegativity": 1.13,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Pm",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1856,7 +1856,7 @@
 		"eletronegativity": 1.17,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Sm",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1889,7 +1889,7 @@
 		"eletronegativity": 1.2,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Eu",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1922,7 +1922,7 @@
 		"eletronegativity": 1.2,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Gd",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1955,7 +1955,7 @@
 		"eletronegativity": 1.1,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Tb",
 		"fase": "S",
 		"layers": [
 			2,
@@ -1985,7 +1985,7 @@
 		"eletronegativity": 1.22,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Dy",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2017,7 +2017,7 @@
 		"eletronegativity": 1.23,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Ho",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2049,7 +2049,7 @@
 		"eletronegativity": 1.24,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Er",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2079,7 +2079,7 @@
 		"eletronegativity": 1.25,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Tm",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2109,7 +2109,7 @@
 		"eletronegativity": 1.1,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Yb",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2139,7 +2139,7 @@
 		"eletronegativity": 1.27,
 		"period": 6,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Lu",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2170,7 +2170,7 @@
 		"eletronegativity": 1.3,
 		"period": 6,
 		"family": 4,
-		"symbol": 4,
+		"symbol": "Hf",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2203,7 +2203,7 @@
 		"eletronegativity": 1.5,
 		"period": 6,
 		"family": 5,
-		"symbol": 5,
+		"symbol": "Ta",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2235,7 +2235,7 @@
 		"eletronegativity": 2.36,
 		"period": 6,
 		"family": 6,
-		"symbol": 6,
+		"symbol": "W",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2269,7 +2269,7 @@
 		"eletronegativity": 1.9,
 		"period": 6,
 		"family": 7,
-		"symbol": 7,
+		"symbol": "Re",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2301,7 +2301,7 @@
 		"eletronegativity": 2.2,
 		"period": 6,
 		"family": 8,
-		"symbol": 8,
+		"symbol": "Os",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2332,7 +2332,7 @@
 		"eletronegativity": 2.2,
 		"period": 6,
 		"family": 9,
-		"symbol": 9,
+		"symbol": "Ir",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2360,7 +2360,7 @@
 		"eletronegativity": 2.28,
 		"period": 6,
 		"family": 10,
-		"symbol": 10,
+		"symbol": "Pt",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2392,7 +2392,7 @@
 		"eletronegativity": 2.54,
 		"period": 6,
 		"family": 11,
-		"symbol": 11,
+		"symbol": "Au",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2423,7 +2423,7 @@
 		"eletronegativity": 2,
 		"period": 6,
 		"family": 12,
-		"symbol": 12,
+		"symbol": "Hg",
 		"fase": "L",
 		"layers": [
 			2,
@@ -2455,7 +2455,7 @@
 		"eletronegativity": 2.04,
 		"period": 6,
 		"family": 13,
-		"symbol": 13,
+		"symbol": "Tl",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2485,7 +2485,7 @@
 		"eletronegativity": 2.33,
 		"period": 6,
 		"family": 14,
-		"symbol": 14,
+		"symbol": "Pb",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2516,7 +2516,7 @@
 		"eletronegativity": 2.02,
 		"period": 6,
 		"family": 15,
-		"symbol": 15,
+		"symbol": "Bi",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2549,7 +2549,7 @@
 		"eletronegativity": 2,
 		"period": 6,
 		"family": 16,
-		"symbol": 16,
+		"symbol": "Po",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2584,7 +2584,7 @@
 		"eletronegativity": 2.2,
 		"period": 6,
 		"family": 17,
-		"symbol": 17,
+		"symbol": "At",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2616,7 +2616,7 @@
 		"eletronegativity": null,
 		"period": 6,
 		"family": 18,
-		"symbol": 18,
+		"symbol": "Rn",
 		"fase": "G",
 		"layers": [
 			2,
@@ -2646,7 +2646,7 @@
 		"eletronegativity": 0.7,
 		"period": 7,
 		"family": 1,
-		"symbol": 1,
+		"symbol": "Fr",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2679,7 +2679,7 @@
 		"eletronegativity": 0.89,
 		"period": 7,
 		"family": 2,
-		"symbol": 2,
+		"symbol": "Ra",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2713,7 +2713,7 @@
 		"eletronegativity": 1.1,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Ac",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2746,7 +2746,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Th",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2779,7 +2779,7 @@
 		"eletronegativity": 1.5,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Pa",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2813,7 +2813,7 @@
 		"eletronegativity": 1.38,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "U",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2849,7 +2849,7 @@
 		"eletronegativity": 1.36,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Np",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2881,7 +2881,7 @@
 		"eletronegativity": 1.28,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Pu",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2921,7 +2921,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Am",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2954,7 +2954,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Cm",
 		"fase": "S",
 		"layers": [
 			2,
@@ -2986,7 +2986,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Bk",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3021,7 +3021,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Cf",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3053,7 +3053,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Es",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3085,7 +3085,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Fm",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3117,7 +3117,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Md",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3148,7 +3148,7 @@
 		"eletronegativity": 1.3,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "No",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3180,7 +3180,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 3,
-		"symbol": 3,
+		"symbol": "Lr",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3211,7 +3211,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 4,
-		"symbol": 4,
+		"symbol": "Rf",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3243,7 +3243,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 5,
-		"symbol": 5,
+		"symbol": "Db",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3276,7 +3276,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 6,
-		"symbol": 6,
+		"symbol": "Sg",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3308,7 +3308,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 7,
-		"symbol": 7,
+		"symbol": "Bh",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3340,7 +3340,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 8,
-		"symbol": 8,
+		"symbol": "Hs",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3372,7 +3372,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 9,
-		"symbol": 9,
+		"symbol": "Mt",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3404,7 +3404,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 10,
-		"symbol": 10,
+		"symbol": "Ds",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3435,7 +3435,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 11,
-		"symbol": 11,
+		"symbol": "Rg",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3466,7 +3466,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 12,
-		"symbol": 12,
+		"symbol": "Cn",
 		"fase": "L",
 		"layers": [
 			2,
@@ -3497,7 +3497,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 13,
-		"symbol": 13,
+		"symbol": "Nh",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3528,7 +3528,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 14,
-		"symbol": 14,
+		"symbol": "Fl",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3561,7 +3561,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 15,
-		"symbol": 15,
+		"symbol": "Mc",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3590,7 +3590,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 16,
-		"symbol": 16,
+		"symbol": "Lv",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3621,7 +3621,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 17,
-		"symbol": 17,
+		"symbol": "Ts",
 		"fase": "S",
 		"layers": [
 			2,
@@ -3653,7 +3653,7 @@
 		"eletronegativity": null,
 		"period": 7,
 		"family": 18,
-		"symbol": 18,
+		"symbol": "Og",
 		"fase": "S",
 		"layers": [
 			2,
