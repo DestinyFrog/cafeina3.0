@@ -3,7 +3,7 @@ from flask_cors import CORS
 
 from routes.elementRoute import route as ElementRoute
 from routes.moleculaRoute import route as MoleculaRoute
-from config import PORT
+from config import PORT, MODE
 
 app = Flask(__name__)
 CORS(app)
@@ -20,4 +20,4 @@ def send_build(path):
 	return send_from_directory('../build', path)
 
 if __name__ == '__main__':
-	app.run( port=PORT )
+	app.run( port=PORT, debug=(MODE == "development") )
