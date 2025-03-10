@@ -1,4 +1,5 @@
 from peewee import IntegerField, CharField, DecimalField
+import json
 
 from models.baseModel import BaseModel
 
@@ -31,15 +32,15 @@ class ElementModel(BaseModel):
 				"x": q.xpos,
 				"y": q.ypos
 			},
-			"atomic_radius": q.atomic_radius,
+			"atomic_radius": float(q.atomic_radius) if q.atomic_radius else None,
 			"category": q.category,
-			"atomic_mass": q.atomic_mass,
-			"eletronegativity": q.eletronegativity,
+			"atomic_mass": float(q.atomic_mass) if q.atomic_mass else None,
+			"eletronegativity": float(q.eletronegativity) if q.eletronegativity else None,
 			"period": q.period,
 			"family": q.family,
 			"symbol": q.symbol,
 			"fase": q.fase,
-			"layers": q.layers,
+			"layers": json.loads(q.layers),
 			"electronic_configuration": q.electronic_configuration,
 			"oxidation_state": q.oxidation_state,
 			"discovery_year": q.discovery_year,

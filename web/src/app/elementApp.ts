@@ -1,6 +1,7 @@
 import './elementApp.css'
 
 import App from "../widgets/app"
+import { CategoryToColor } from '../util'
 
 class ElementApp extends App {
 	public element
@@ -44,7 +45,7 @@ class ElementApp extends App {
 	}
 
 	protected Render(): void {
-		this.div_content.style.backgroundColor = this.element.color
+		this.div_content.style.backgroundColor = CategoryToColor(this.element.category)
 
 		this.p_atomic_number.textContent = this.element.atomic_number.toString()
 		this.p_symbol.textContent = this.element.symbol

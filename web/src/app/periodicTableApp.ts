@@ -4,6 +4,7 @@ import { API_URL } from "../configuration"
 import App from "../widgets/app"
 import ErrorApp from '../widgets/errorApp'
 import ElementApp from './elementApp'
+import { CategoryToColor } from '../util'
 
 class PeriodicTableApp extends App {
 	private div_periodic_table: HTMLDivElement
@@ -48,7 +49,7 @@ class PeriodicTableApp extends App {
 	private generateElementContainer(element:any) {
 		const div_element = document.createElement('div')
 		div_element.className = 'element'
-		div_element.style.backgroundColor = this.handleColor(element.category)
+		div_element.style.backgroundColor = CategoryToColor(element.category)
 
 		div_element.addEventListener('click', () => {
 			const w = new ElementApp(element)
@@ -63,38 +64,6 @@ class PeriodicTableApp extends App {
 		div_element.appendChild(p_symbol)
 
 		return div_element
-	}
-
-	private handleColor(category:string) {
-		switch (category) {
-			case "hidrogênio":
-				return "#8c0250";
-			case "metal alcalino":
-				return "#e5b80b";
-			case "metal alcalino terroso":
-				return "#ff6600";
-			case "ametal":
-				return "#008000";
-			case "metal de transição":
-				return "#970700";
-			case "semimetal":
-				return "#aa007a";
-			case "gás nobre":
-				return "#9400d3";
-			case "outros metais":
-				return "#ff007f";
-			case "metaloide":
-				return "#ff22ee";
-			case "halogênio":
-				return "#304ee6";
-			case "lantanídeo":
-				return "#054f77";
-			case "actinídeo":
-				return "#4169e1";
-			case "desconhecido":
-			default:
-				return "#333333";
-		}
 	}
 }
 
