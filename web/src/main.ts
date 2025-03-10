@@ -1,7 +1,9 @@
+import './style.css'
 
-const app = document.getElementById('app')!
+import PeriodicTableApp from './app/periodicTableApp'
+import Icon from './widgets/icon'
 
-const p = document.createElement('p')
-p.textContent = "Hello, World!"
-
-app.appendChild(p)
+new Icon("Tabela Periódica", "icon_periodic_table.svg", () => {
+	const a = new PeriodicTableApp()
+	a.Start()
+})
