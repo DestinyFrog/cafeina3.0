@@ -1,10 +1,12 @@
 from flask import Flask, send_from_directory
+from flask_cors import CORS
 
 from routes.elementRoute import route as ElementRoute
 from routes.moleculaRoute import route as MoleculaRoute
 from config import PORT
 
 app = Flask(__name__)
+CORS(app)
 
 app.register_blueprint(ElementRoute)
 app.register_blueprint(MoleculaRoute)
